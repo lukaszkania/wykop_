@@ -7,3 +7,6 @@ class ReactionsTest(TestCase):
     def test_true(self):
         self.assertTrue(True)
         self.assertFalse(False)
+
+    def test_fail(self):
+        self.assertTrue(False)
