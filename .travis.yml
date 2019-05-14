@@ -1,11 +1,11 @@
 dist: xenial
 language: python
 python:
-- "3.4"
-- "3.6"
+ - "3.4"
+ - "3.6"
 env:
--Django=2.2.1
+ -Django=2.2.1
 install:
-- pip install -r travis-requirements.txt
+ - pip install -r travis-requirements.txt
 script:
-- python manage.py test
+ - python manage.py test
